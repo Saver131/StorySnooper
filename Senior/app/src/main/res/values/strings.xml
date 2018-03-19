@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Story Snooper</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one">Hot News</string>
+    <string name="two">New News</string>
+    <string name="three">Veracity Check</string>
+    <string name="welcome">Welcome\nto\nStory Snooper</string>
+    <string name="facebook_app_id">613660155483920</string>
+    <string name="fb_login_protocol_scheme">fb613660155483920</string>
+    <string name="veracity_result">Truthness\n60.15%</string>
+    <string name="veracity_reason">Reasons\nTrustworthy Source\nMostly Agreed Comment\nTrustable Link</string>
+    <string name="ip">http://52.187.174.94/</string>
+</resources>

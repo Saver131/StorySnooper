@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFFFF"
+    >
+
+    <ListView
+        android:id="@+id/pageList"
+        android:layout_width="match_parent"
+        android:layout_height="403dp"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_below="@+id/poster"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:choiceMode="multipleChoice"
+        android:layout_above="@+id/submit" />
+
+    <TextView
+        android:id="@+id/poster"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:text="Select type of page"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saverbullets.senior.ThreeFragment"
+    android:background="#FFFFFFFF">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="100dp">
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="60dp"
+            android:inputType="textPersonName"
+            android:text="www.facebook.com/"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:elevation="1dp" />
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"/>
+    </LinearLayout>
+</FrameLayout>
